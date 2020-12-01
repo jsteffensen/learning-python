@@ -43,7 +43,7 @@ import numpy as np
 array = np.array(range(1, 10))
 print(array)
 
-print('\n')
+print()
 
 array2D = np.array([range(i, i+2) for i in array])
 print(array2D)

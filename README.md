@@ -45,8 +45,8 @@ print(array)
 
 print('\n')
 
-array = np.array([range(i, i+2) for i in array])
-print(array)
+array2D = np.array([range(i, i+2) for i in array])
+print(array2D)
 ```
 
 produces

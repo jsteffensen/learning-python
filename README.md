@@ -19,7 +19,7 @@ you can then use it like:
 
 ```
 import tensorflow as tf
-``
+```
 
 # Code samples
 

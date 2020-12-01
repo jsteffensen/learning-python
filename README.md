@@ -13,3 +13,17 @@ https://www.youtube.com/watch?v=28eLP22SMTA
 ## Using third party libraries
 
 `C:\Users\myusername>pip install tensorflow`
+
+# Code samples
+
+## Hello world
+
+```
+print('Hello world!')
+```
+
+produces
+
+```
+Hello world!
+```

@@ -15,7 +15,7 @@ https://www.youtube.com/watch?v=28eLP22SMTA
 `C:\Users\myusername>pip install tensorflow`
 
 
-you can then use it like:
+you can then use it in your code like:
 
 ```
 import tensorflow as tf

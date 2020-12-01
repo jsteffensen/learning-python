@@ -10,9 +10,16 @@ https://www.python.org/downloads/release/python-386/
 
 https://www.youtube.com/watch?v=28eLP22SMTA
 
-## Using third party libraries
+## Installing third party libraries
 
 `C:\Users\myusername>pip install tensorflow`
+
+
+you can then use it like:
+
+```
+import tensorflow as tf
+``
 
 # Code samples
 

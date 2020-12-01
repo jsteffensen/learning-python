@@ -1,4 +1,4 @@
-# learning-python
+# Learning Python
 Newbie Python examples
 
 ## Download python

@@ -66,6 +66,32 @@ produces
  [ 9 10]]
 ```
 
+## Structured array
+
+```
+import numpy as np
+
+label = ['Lorem', 'Ipsum', 'Dolor']
+minutes = [34, 45, 56]
+weight = [180.6, 125.9, 170.0]
+
+size = len(label)
+
+structured_array = np.zeros(size, dtype={'names':('label', 'minutes', 'weight'), 'formats': ('U10', 'i4', 'f8')})
+
+structured_array['label'] = label
+structured_array['minutes'] = minutes
+structured_array['weight'] = weight
+
+print(structured_array)
+```
+
+produces
+
+```
+[('Lorem', 34, 180.6) ('Ipsum', 45, 125.9) ('Dolor', 56, 170. )]
+```
+
 ## Pandas and files
 
 ```

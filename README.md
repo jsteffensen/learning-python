@@ -1,6 +1,11 @@
 # Learning Python
 Newbie Python examples
 
+
+## Machine learning primer
+
+https://classroom.udacity.com/courses/ud187
+
 ## Download python
 
 Get 3.8 so we are compatible with TensorFlow

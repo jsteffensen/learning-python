@@ -11,6 +11,8 @@ https://classroom.udacity.com/courses/ud187
 Get 3.8 so we are compatible with TensorFlow
 https://www.python.org/downloads/release/python-386/
 
+Install to C:\Users\root\AppData\Local\Programs\Python\Python38
+
 ## Using a virtual environment
 
 https://www.youtube.com/watch?v=28eLP22SMTA

@@ -167,7 +167,6 @@ import pandas as pd
 
 dataframe = pd.read_csv('C:/Users/root/Desktop/BTCUSD.csv', sep=',')
 
-#print(dataframe.head(3))
 dataframe['bool'] = dataframe['Open'] > 10000
 
 print(dataframe)

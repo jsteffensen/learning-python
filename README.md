@@ -190,3 +190,20 @@ produces
 
 [1272849 rows x 8 columns]
 ```
+
+## Save dataframe to csv
+
+```
+import numpy as np
+import pandas as pd
+
+dataframe = pd.read_csv('C:/Users/root/Desktop/BTCUSD.csv', sep=',')
+
+dataframe['gt_prev'] = dataframe.Volume > dataframe.Volume.shift(1)
+dataframe['dbl_prev'] = dataframe.Volume >= 2 * dataframe.Volume.shift(1)
+dataframe['gt_2prev'] = dataframe.Volume > dataframe.Volume.shift(1) + dataframe.Volume.shift(2)
+dataframe['lt_prev'] = dataframe.Volume < dataframe.Volume.shift(1)
+dataframe['half_prev'] = dataframe.Volume <= 0.5 * dataframe.Volume.shift(1)
+
+dataframe.to_csv(r'C:/Users/root/Desktop/BTCUSD_w_booleans.csv')
+```
